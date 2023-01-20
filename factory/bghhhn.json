@@ -1,0 +1,9 @@
+{
+	"name": "bghhhn",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a17dd0ee-a7b2-4f1e-be6c-d3431e721b85",
+		"tenantId": "8973fc17-5c58-4e29-ac1c-f3aa1e24332b"
+	}
+}
