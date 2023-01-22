@@ -4,6 +4,9 @@
 	"parameters": {
 		"factoryName": {
 			"value": "bghhhn"
+		},
+		"ls_sourceblob_connectionString": {
+			"value": ""
 		}
 	}
 }
