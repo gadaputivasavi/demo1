@@ -1,0 +1,23 @@
+{
+	"name": "Ds_metadatablob",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sourceblob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "metadata",
+				"container": "vsd"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
